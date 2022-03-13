@@ -1,0 +1,2613 @@
+> use assignment
+switched to db assignment
+> show collections
+mockmovie
+mockmovies1
+> db.mockmovies1.count()
+500
+> db.mockmovies1.find({}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6f"),
+        "id" : 21,
+        "movie_name" : "Glumov's Diary (Dnevnik Glumova)",
+        "movies_genre" : "(no genres listed)",
+        "production_year" : 2002,
+        "budget" : 18178
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d70"),
+        "id" : 22,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 13225
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d71"),
+        "id" : 23,
+        "movie_name" : "Queen to Play (Joueuse)",
+        "movies_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15444
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d72"),
+        "id" : 24,
+        "movie_name" : "Hollywood Homicide",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2012,
+        "budget" : 16063
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d73"),
+        "id" : 25,
+        "movie_name" : "Ruby & Quentin (Tais-toi!)",
+        "movies_genre" : "Comedy|Crime",
+        "production_year" : 1995,
+        "budget" : 13004
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d74"),
+        "id" : 26,
+        "movie_name" : "Hands Across the Table",
+        "movies_genre" : "Comedy|Romance",
+        "production_year" : 2001,
+        "budget" : 17281
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d75"),
+        "id" : 27,
+        "movie_name" : "Happy New Year",
+        "movies_genre" : "Action|Comedy|Crime|Drama|Musical|Romance",
+        "production_year" : 1992,
+        "budget" : 16510
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d76"),
+        "id" : 28,
+        "movie_name" : "State Witness, The (Swiadek koronny)",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2004,
+        "budget" : 11797
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d77"),
+        "id" : 29,
+        "movie_name" : "After Life (Wandafuru raifu)",
+        "movies_genre" : "Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 15464
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d78"),
+        "id" : 30,
+        "movie_name" : "Dr. Wai in the Scriptures with No Words (Mao xian wang)",
+        "movies_genre" : "Action",
+        "production_year" : 1995,
+        "budget" : 19097
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d79"),
+        "id" : 31,
+        "movie_name" : "Bad Chicken",
+        "movies_genre" : "Comedy",
+        "production_year" : 2010,
+        "budget" : 14126
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7a"),
+        "id" : 32,
+        "movie_name" : "Town Without Pity",
+        "movies_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 19665
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7b"),
+        "id" : 33,
+        "movie_name" : "Alfie",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1985,
+        "budget" : 12407
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7c"),
+        "id" : 34,
+        "movie_name" : "At Sword's Point",
+        "movies_genre" : "Adventure",
+        "production_year" : 2007,
+        "budget" : 12155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7d"),
+        "id" : 35,
+        "movie_name" : "Days of Wine and Roses",
+        "movies_genre" : "Drama",
+        "production_year" : 1996,
+        "budget" : 13887
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7e"),
+        "id" : 36,
+        "movie_name" : "(A)sexual",
+        "movies_genre" : "Comedy|Documentary|Drama",
+        "production_year" : 1985,
+        "budget" : 9155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7f"),
+        "id" : 37,
+        "movie_name" : "Evilspeak",
+        "movies_genre" : "Horror|Sci-Fi",
+        "production_year" : 1986,
+        "budget" : 14055
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d80"),
+        "id" : 38,
+        "movie_name" : "Comedy Central Roast of Bob Saget",
+        "movies_genre" : "Comedy",
+        "production_year" : 1998,
+        "budget" : 16355
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d81"),
+        "id" : 39,
+        "movie_name" : "Let's Scare Jessica to Death",
+        "movies_genre" : "Horror|Mystery",
+        "production_year" : 2011,
+        "budget" : 17243
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d82"),
+        "id" : 40,
+        "movie_name" : "The Sky Dragon",
+        "movies_genre" : "Adventure|Comedy|Crime|Mystery|Thriller",
+        "production_year" : 1966,
+        "budget" : 11826
+}
+Type "it" for more
+> it
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d83"),
+        "id" : 41,
+        "movie_name" : "Intruder, The (L'intrus)",
+        "movies_genre" : "Drama",
+        "production_year" : 2009,
+        "budget" : 13579
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d84"),
+        "id" : 42,
+        "movie_name" : "Ménilmontant",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 2008,
+        "budget" : 12964
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d85"),
+        "id" : 43,
+        "movie_name" : "Xtro",
+        "movies_genre" : "Horror|Sci-Fi",
+        "production_year" : 1995,
+        "budget" : 19582
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d86"),
+        "id" : 44,
+        "movie_name" : "Rocky Horror Picture Show, The",
+        "movies_genre" : "Comedy|Horror|Musical|Sci-Fi",
+        "production_year" : 1994,
+        "budget" : 15565
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d87"),
+        "id" : 45,
+        "movie_name" : "Blow-Up (Blowup)",
+        "movies_genre" : "Drama|Mystery",
+        "production_year" : 1987,
+        "budget" : 13428
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d88"),
+        "id" : 46,
+        "movie_name" : "Kingdom, The",
+        "movies_genre" : "Action|Drama|Thriller",
+        "production_year" : 1998,
+        "budget" : 9337
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d89"),
+        "id" : 47,
+        "movie_name" : "Murphy's War",
+        "movies_genre" : "War",
+        "production_year" : 1986,
+        "budget" : 14546
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8a"),
+        "id" : 48,
+        "movie_name" : "Doughboys",
+        "movies_genre" : "Comedy|War",
+        "production_year" : 2008,
+        "budget" : 15183
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8b"),
+        "id" : 49,
+        "movie_name" : "Dear Pillow",
+        "movies_genre" : "Drama",
+        "production_year" : 1996,
+        "budget" : 18383
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8c"),
+        "id" : 50,
+        "movie_name" : "Roadracers",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 11017
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8d"),
+        "id" : 51,
+        "movie_name" : "Twin Sitters",
+        "movies_genre" : "Thriller",
+        "production_year" : 1964,
+        "budget" : 12037
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8e"),
+        "id" : 52,
+        "movie_name" : "Zoot Suit",
+        "movies_genre" : "Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9239
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8f"),
+        "id" : 53,
+        "movie_name" : "Christmas Carol, A",
+        "movies_genre" : "Animation|Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 17887
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d90"),
+        "id" : 54,
+        "movie_name" : "Then I Sentenced Them All to Death (Atunci i-am condamnat pe toti la moarte)",
+        "movies_genre" : "Drama|War",
+        "production_year" : 1998,
+        "budget" : 16300
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d91"),
+        "id" : 55,
+        "movie_name" : "Tripper, The",
+        "movies_genre" : "Horror",
+        "production_year" : 1998,
+        "budget" : 19392
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d92"),
+        "id" : 56,
+        "movie_name" : "Necessary Death, A",
+        "movies_genre" : "Crime|Drama|Thriller",
+        "production_year" : 1993,
+        "budget" : 17355
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d93"),
+        "id" : 57,
+        "movie_name" : "Master of the Universe",
+        "movies_genre" : "Documentary",
+        "production_year" : 2005,
+        "budget" : 11854
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d94"),
+        "id" : 58,
+        "movie_name" : "Svampe",
+        "movies_genre" : "Adventure|Children",
+        "production_year" : 2007,
+        "budget" : 15093
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d95"),
+        "id" : 59,
+        "movie_name" : "Exam",
+        "movies_genre" : "Mystery|Thriller",
+        "production_year" : 2005,
+        "budget" : 19472
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d96"),
+        "id" : 60,
+        "movie_name" : "Big Night",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 1998,
+        "budget" : 19563
+}
+Type "it" for more
+> db.mockmovies1.find({"movie_name":{$eq:"Big Night"}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d96"),
+        "id" : 60,
+        "movie_name" : "Big Night",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 1998,
+        "budget" : 19563
+}
+> db.mockmovies1.find({"movie_name":{$ne:"Big Night"}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+Type "it" for more
+> db.mockmovies1.find({"movie_name":{$ne:"Big Night"}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+Type "it" for more
+> db.mockmovies1.find({"budget":{$gt:13000}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6f"),
+        "id" : 21,
+        "movie_name" : "Glumov's Diary (Dnevnik Glumova)",
+        "movies_genre" : "(no genres listed)",
+        "production_year" : 2002,
+        "budget" : 18178
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d70"),
+        "id" : 22,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 13225
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d71"),
+        "id" : 23,
+        "movie_name" : "Queen to Play (Joueuse)",
+        "movies_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15444
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d72"),
+        "id" : 24,
+        "movie_name" : "Hollywood Homicide",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2012,
+        "budget" : 16063
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d73"),
+        "id" : 25,
+        "movie_name" : "Ruby & Quentin (Tais-toi!)",
+        "movies_genre" : "Comedy|Crime",
+        "production_year" : 1995,
+        "budget" : 13004
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d74"),
+        "id" : 26,
+        "movie_name" : "Hands Across the Table",
+        "movies_genre" : "Comedy|Romance",
+        "production_year" : 2001,
+        "budget" : 17281
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d75"),
+        "id" : 27,
+        "movie_name" : "Happy New Year",
+        "movies_genre" : "Action|Comedy|Crime|Drama|Musical|Romance",
+        "production_year" : 1992,
+        "budget" : 16510
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d77"),
+        "id" : 29,
+        "movie_name" : "After Life (Wandafuru raifu)",
+        "movies_genre" : "Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 15464
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d78"),
+        "id" : 30,
+        "movie_name" : "Dr. Wai in the Scriptures with No Words (Mao xian wang)",
+        "movies_genre" : "Action",
+        "production_year" : 1995,
+        "budget" : 19097
+}
+Type "it" for more
+> db.mockmovies1.find({"budget":{$gte:13000}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6f"),
+        "id" : 21,
+        "movie_name" : "Glumov's Diary (Dnevnik Glumova)",
+        "movies_genre" : "(no genres listed)",
+        "production_year" : 2002,
+        "budget" : 18178
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d70"),
+        "id" : 22,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 13225
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d71"),
+        "id" : 23,
+        "movie_name" : "Queen to Play (Joueuse)",
+        "movies_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15444
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d72"),
+        "id" : 24,
+        "movie_name" : "Hollywood Homicide",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2012,
+        "budget" : 16063
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d73"),
+        "id" : 25,
+        "movie_name" : "Ruby & Quentin (Tais-toi!)",
+        "movies_genre" : "Comedy|Crime",
+        "production_year" : 1995,
+        "budget" : 13004
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d74"),
+        "id" : 26,
+        "movie_name" : "Hands Across the Table",
+        "movies_genre" : "Comedy|Romance",
+        "production_year" : 2001,
+        "budget" : 17281
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d75"),
+        "id" : 27,
+        "movie_name" : "Happy New Year",
+        "movies_genre" : "Action|Comedy|Crime|Drama|Musical|Romance",
+        "production_year" : 1992,
+        "budget" : 16510
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d77"),
+        "id" : 29,
+        "movie_name" : "After Life (Wandafuru raifu)",
+        "movies_genre" : "Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 15464
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d78"),
+        "id" : 30,
+        "movie_name" : "Dr. Wai in the Scriptures with No Words (Mao xian wang)",
+        "movies_genre" : "Action",
+        "production_year" : 1995,
+        "budget" : 19097
+}
+Type "it" for more
+> db.mockmovies1.find({"budget":{$lt:13000}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d76"),
+        "id" : 28,
+        "movie_name" : "State Witness, The (Swiadek koronny)",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2004,
+        "budget" : 11797
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7b"),
+        "id" : 33,
+        "movie_name" : "Alfie",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1985,
+        "budget" : 12407
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7c"),
+        "id" : 34,
+        "movie_name" : "At Sword's Point",
+        "movies_genre" : "Adventure",
+        "production_year" : 2007,
+        "budget" : 12155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7e"),
+        "id" : 36,
+        "movie_name" : "(A)sexual",
+        "movies_genre" : "Comedy|Documentary|Drama",
+        "production_year" : 1985,
+        "budget" : 9155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d82"),
+        "id" : 40,
+        "movie_name" : "The Sky Dragon",
+        "movies_genre" : "Adventure|Comedy|Crime|Mystery|Thriller",
+        "production_year" : 1966,
+        "budget" : 11826
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d84"),
+        "id" : 42,
+        "movie_name" : "Ménilmontant",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 2008,
+        "budget" : 12964
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d88"),
+        "id" : 46,
+        "movie_name" : "Kingdom, The",
+        "movies_genre" : "Action|Drama|Thriller",
+        "production_year" : 1998,
+        "budget" : 9337
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8c"),
+        "id" : 50,
+        "movie_name" : "Roadracers",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 11017
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8d"),
+        "id" : 51,
+        "movie_name" : "Twin Sitters",
+        "movies_genre" : "Thriller",
+        "production_year" : 1964,
+        "budget" : 12037
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8e"),
+        "id" : 52,
+        "movie_name" : "Zoot Suit",
+        "movies_genre" : "Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9239
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d93"),
+        "id" : 57,
+        "movie_name" : "Master of the Universe",
+        "movies_genre" : "Documentary",
+        "production_year" : 2005,
+        "budget" : 11854
+}
+Type "it" for more
+> db.mockmovies1.find({"budget":{$lte:13000}}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d76"),
+        "id" : 28,
+        "movie_name" : "State Witness, The (Swiadek koronny)",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2004,
+        "budget" : 11797
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7b"),
+        "id" : 33,
+        "movie_name" : "Alfie",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1985,
+        "budget" : 12407
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7c"),
+        "id" : 34,
+        "movie_name" : "At Sword's Point",
+        "movies_genre" : "Adventure",
+        "production_year" : 2007,
+        "budget" : 12155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7e"),
+        "id" : 36,
+        "movie_name" : "(A)sexual",
+        "movies_genre" : "Comedy|Documentary|Drama",
+        "production_year" : 1985,
+        "budget" : 9155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d82"),
+        "id" : 40,
+        "movie_name" : "The Sky Dragon",
+        "movies_genre" : "Adventure|Comedy|Crime|Mystery|Thriller",
+        "production_year" : 1966,
+        "budget" : 11826
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d84"),
+        "id" : 42,
+        "movie_name" : "Ménilmontant",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 2008,
+        "budget" : 12964
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d88"),
+        "id" : 46,
+        "movie_name" : "Kingdom, The",
+        "movies_genre" : "Action|Drama|Thriller",
+        "production_year" : 1998,
+        "budget" : 9337
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8c"),
+        "id" : 50,
+        "movie_name" : "Roadracers",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 11017
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8d"),
+        "id" : 51,
+        "movie_name" : "Twin Sitters",
+        "movies_genre" : "Thriller",
+        "production_year" : 1964,
+        "budget" : 12037
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8e"),
+        "id" : 52,
+        "movie_name" : "Zoot Suit",
+        "movies_genre" : "Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9239
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d93"),
+        "id" : 57,
+        "movie_name" : "Master of the Universe",
+        "movies_genre" : "Documentary",
+        "production_year" : 2005,
+        "budget" : 11854
+}
+Type "it" for more
+> db.mockmovies1.find({$and:[{"budget":{$gt:10000}},{"budget":{$gte:11000}}]}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6f"),
+        "id" : 21,
+        "movie_name" : "Glumov's Diary (Dnevnik Glumova)",
+        "movies_genre" : "(no genres listed)",
+        "production_year" : 2002,
+        "budget" : 18178
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d70"),
+        "id" : 22,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 13225
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d71"),
+        "id" : 23,
+        "movie_name" : "Queen to Play (Joueuse)",
+        "movies_genre" : "Drama",
+        "production_year" : 2011,
+        "budget" : 15444
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d72"),
+        "id" : 24,
+        "movie_name" : "Hollywood Homicide",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2012,
+        "budget" : 16063
+}
+Type "it" for more
+> db.mockmovies1.find({$and:[{"budget":{$lt:10000}},{"budget":{$lte:11000}}]}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7e"),
+        "id" : 36,
+        "movie_name" : "(A)sexual",
+        "movies_genre" : "Comedy|Documentary|Drama",
+        "production_year" : 1985,
+        "budget" : 9155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d88"),
+        "id" : 46,
+        "movie_name" : "Kingdom, The",
+        "movies_genre" : "Action|Drama|Thriller",
+        "production_year" : 1998,
+        "budget" : 9337
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8e"),
+        "id" : 52,
+        "movie_name" : "Zoot Suit",
+        "movies_genre" : "Drama|Musical",
+        "production_year" : 2000,
+        "budget" : 9239
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dbb"),
+        "id" : 97,
+        "movie_name" : "King, The",
+        "movies_genre" : "Drama",
+        "production_year" : 2009,
+        "budget" : 9192
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dc0"),
+        "id" : 102,
+        "movie_name" : "Hippie Revolution, The",
+        "movies_genre" : "Documentary",
+        "production_year" : 2008,
+        "budget" : 9526
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dc3"),
+        "id" : 105,
+        "movie_name" : "Private Life of Don Juan, The",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2007,
+        "budget" : 9410
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dcc"),
+        "id" : 114,
+        "movie_name" : "Antboy",
+        "movies_genre" : "Adventure|Children|Comedy",
+        "production_year" : 1994,
+        "budget" : 9427
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dce"),
+        "id" : 116,
+        "movie_name" : "Cat Chaser",
+        "movies_genre" : "Action|Thriller",
+        "production_year" : 1993,
+        "budget" : 9438
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dd5"),
+        "id" : 123,
+        "movie_name" : "Stretch",
+        "movies_genre" : "Action|Comedy|Crime",
+        "production_year" : 1990,
+        "budget" : 9208
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5de7"),
+        "id" : 141,
+        "movie_name" : "Young Unknowns, The",
+        "movies_genre" : "Drama",
+        "production_year" : 2008,
+        "budget" : 9901
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5def"),
+        "id" : 149,
+        "movie_name" : "Side Street",
+        "movies_genre" : "Crime|Drama|Film-Noir",
+        "production_year" : 2009,
+        "budget" : 9044
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5df0"),
+        "id" : 150,
+        "movie_name" : "Wake",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1995,
+        "budget" : 9197
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5df6"),
+        "id" : 156,
+        "movie_name" : "Way, Way Back, The",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 2000,
+        "budget" : 9277
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dfa"),
+        "id" : 160,
+        "movie_name" : "Divorce",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 9580
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e03"),
+        "id" : 169,
+        "movie_name" : "Fatal Instinct",
+        "movies_genre" : "Comedy",
+        "production_year" : 2012,
+        "budget" : 9361
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e04"),
+        "id" : 170,
+        "movie_name" : "Modulations",
+        "movies_genre" : "Documentary",
+        "production_year" : 1993,
+        "budget" : 9655
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e09"),
+        "id" : 175,
+        "movie_name" : "Corto Maltese: The Guilded House of Samarkand (La maison dorée de Samarkand)",
+        "movies_genre" : "Adventure|Animation|Drama|Romance|War",
+        "production_year" : 1994,
+        "budget" : 9121
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e0f"),
+        "id" : 181,
+        "movie_name" : "Love & Savagery",
+        "movies_genre" : "Drama|Romance",
+        "production_year" : 1993,
+        "budget" : 9603
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e19"),
+        "id" : 191,
+        "movie_name" : "Odd Life of Timothy Green, The",
+        "movies_genre" : "Comedy|Drama|Fantasy",
+        "production_year" : 2004,
+        "budget" : 9434
+}
+> db.mockmovies1.find({$and:[{"budget":{$lt:10000}},{"budget":{$lte:11000}}]},{_id:0,budget:1}).pretty()
+{ "budget" : 9101 }
+{ "budget" : 9155 }
+{ "budget" : 9337 }
+{ "budget" : 9239 }
+{ "budget" : 9192 }
+{ "budget" : 9526 }
+{ "budget" : 9410 }
+{ "budget" : 9427 }
+{ "budget" : 9438 }
+{ "budget" : 9208 }
+{ "budget" : 9901 }
+{ "budget" : 9044 }
+{ "budget" : 9197 }
+{ "budget" : 9277 }
+{ "budget" : 9580 }
+{ "budget" : 9361 }
+{ "budget" : 9655 }
+{ "budget" : 9121 }
+{ "budget" : 9603 }
+{ "budget" : 9434 }
+
+> db.mockmovies1.find({$and:[{"budget":{$gt:10000}},{"budget":{$gte:11000}}]},{_id:0,budget:1}).pretty()
+{ "budget" : 18872 }
+{ "budget" : 16749 }
+{ "budget" : 11499 }
+{ "budget" : 11172 }
+{ "budget" : 14026 }
+{ "budget" : 14636 }
+{ "budget" : 14377 }
+{ "budget" : 16174 }
+{ "budget" : 11014 }
+{ "budget" : 14624 }
+{ "budget" : 12708 }
+{ "budget" : 12441 }
+{ "budget" : 16313 }
+{ "budget" : 19476 }
+{ "budget" : 17796 }
+{ "budget" : 13763 }
+{ "budget" : 18178 }
+{ "budget" : 13225 }
+{ "budget" : 15444 }
+{ "budget" : 16063 }
+
+> db.mockmovies1.find({$and:[{"production_year":{$gt:2000}},{"budget":{$gt:10000}}]},{_id:0,budget:1,production_year:0}).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "Cannot do exclusion on field production_year in inclusion projection",
+        "code" : 31254,
+        "codeName" : "Location31254"
+}
+
+> db.mockmovies1.find({ production_year: {$gt:2000}, budget: {$gt:10000} },{_id:0, production_year:1, budget:1 }).pretty()
+{ "production_year" : 2009, "budget" : 18872 }
+{ "production_year" : 2009, "budget" : 14377 }
+{ "production_year" : 2005, "budget" : 16174 }
+{ "production_year" : 2012, "budget" : 11014 }
+{ "production_year" : 2012, "budget" : 14624 }
+{ "production_year" : 2003, "budget" : 12708 }
+{ "production_year" : 2006, "budget" : 10834 }
+{ "production_year" : 2001, "budget" : 12441 }
+{ "production_year" : 2003, "budget" : 16313 }
+{ "production_year" : 2005, "budget" : 19476 }
+{ "production_year" : 2002, "budget" : 18178 }
+{ "production_year" : 2006, "budget" : 13225 }
+{ "production_year" : 2011, "budget" : 15444 }
+{ "production_year" : 2012, "budget" : 16063 }
+{ "production_year" : 2001, "budget" : 17281 }
+{ "production_year" : 2004, "budget" : 11797 }
+{ "production_year" : 2010, "budget" : 15464 }
+{ "production_year" : 2010, "budget" : 14126 }
+{ "production_year" : 2011, "budget" : 19665 }
+{ "production_year" : 2007, "budget" : 12155 }
+
+
+> db.mockmovies1.find({$or:[{"production_year":{$gt:2000}},{"budget":{$gt:10000}}]},{_id:0,budget:1,production_year:0}).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "Cannot do exclusion on field production_year in inclusion projection",
+        "code" : 31254,
+        "codeName" : "Location31254"
+}
+> db.mockmovies1.find({$or:[{"production_year":{$gt:2000}},{"budget":{$gt:10000}}]}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5c"),
+        "id" : 2,
+        "movie_name" : "Lola Montès",
+        "movies_genre" : "Drama",
+        "production_year" : 1997,
+        "budget" : 16749
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5d"),
+        "id" : 3,
+        "movie_name" : "Gallowwalkers",
+        "movies_genre" : "Action|Horror|Sci-Fi|Western",
+        "production_year" : 1999,
+        "budget" : 11499
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5f"),
+        "id" : 5,
+        "movie_name" : "First Snow",
+        "movies_genre" : "Drama|Thriller",
+        "production_year" : 1994,
+        "budget" : 11172
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d60"),
+        "id" : 6,
+        "movie_name" : "Conspiracy, The",
+        "movies_genre" : "Horror|Thriller",
+        "production_year" : 1988,
+        "budget" : 14026
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d61"),
+        "id" : 7,
+        "movie_name" : "Unforgettable Summer, An (Un été inoubliable)",
+        "movies_genre" : "Drama",
+        "production_year" : 1968,
+        "budget" : 14636
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6d"),
+        "id" : 19,
+        "movie_name" : "Field of Dreams",
+        "movies_genre" : "Children|Drama|Fantasy",
+        "production_year" : 1997,
+        "budget" : 17796
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6e"),
+        "id" : 20,
+        "movie_name" : "Bossa Nova",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 1998,
+        "budget" : 13763
+}
+> db.mockmovies1.find({$nor:[{production_year:{$lt: 2000}, {budget:{$lt:10000}}]},{_id:0, id:1, production_year:1, budget:1 })
+... db.mockmovies1.find({ $or: [{production_year: { $gt: 2000 } }, { budget: { $gt: 10000 } }] }, {_id:0, id:1, movie_name: 1, production_year:1, budget:1 })
+...
+...
+>
+Type "it" for more
+> db.mockmovies1.find({$nor:[{"production_year":{$lt:2000}},{"budget":{$lt:10000}}]},{_id:0,id:1,production_year:1, budget:1}).pretty()
+{ "id" : 1, "production_year" : 2009, "budget" : 18872 }
+{ "id" : 8, "production_year" : 2009, "budget" : 14377 }
+{ "id" : 9, "production_year" : 2005, "budget" : 16174 }
+{ "id" : 10, "production_year" : 2012, "budget" : 11014 }
+{ "id" : 11, "production_year" : 2012, "budget" : 14624 }
+{ "id" : 13, "production_year" : 2003, "budget" : 12708 }
+{ "id" : 14, "production_year" : 2006, "budget" : 10834 }
+{ "id" : 16, "production_year" : 2001, "budget" : 12441 }
+{ "id" : 17, "production_year" : 2003, "budget" : 16313 }
+{ "id" : 18, "production_year" : 2005, "budget" : 19476 }
+{ "id" : 21, "production_year" : 2002, "budget" : 18178 }
+{ "id" : 22, "production_year" : 2006, "budget" : 13225 }
+{ "id" : 23, "production_year" : 2011, "budget" : 15444 }
+{ "id" : 24, "production_year" : 2012, "budget" : 16063 }
+{ "id" : 26, "production_year" : 2001, "budget" : 17281 }
+{ "id" : 28, "production_year" : 2004, "budget" : 11797 }
+{ "id" : 29, "production_year" : 2010, "budget" : 15464 }
+{ "id" : 31, "production_year" : 2010, "budget" : 14126 }
+{ "id" : 32, "production_year" : 2011, "budget" : 19665 }
+{ "id" : 34, "production_year" : 2007, "budget" : 12155 }
+Type "it" for more
+> db.mockmovies1.find({$nor:[{"production_year":{$gt:2000}},{"budget":{$gt:10000}}]},{_id:0,id:1,production_year:1, budget:1}).pretty()
+{ "id" : 36, "production_year" : 1985, "budget" : 9155 }
+{ "id" : 46, "production_year" : 1998, "budget" : 9337 }
+{ "id" : 52, "production_year" : 2000, "budget" : 9239 }
+{ "id" : 114, "production_year" : 1994, "budget" : 9427 }
+{ "id" : 116, "production_year" : 1993, "budget" : 9438 }
+{ "id" : 123, "production_year" : 1990, "budget" : 9208 }
+{ "id" : 150, "production_year" : 1995, "budget" : 9197 }
+{ "id" : 156, "production_year" : 2000, "budget" : 9277 }
+{ "id" : 170, "production_year" : 1993, "budget" : 9655 }
+{ "id" : 175, "production_year" : 1994, "budget" : 9121 }
+{ "id" : 181, "production_year" : 1993, "budget" : 9603 }
+{ "id" : 207, "production_year" : 1999, "budget" : 9449 }
+{ "id" : 215, "production_year" : 1993, "budget" : 9425 }
+{ "id" : 240, "production_year" : 1991, "budget" : 9398 }
+{ "id" : 267, "production_year" : 1992, "budget" : 9303 }
+{ "id" : 324, "production_year" : 1998, "budget" : 9742 }
+{ "id" : 342, "production_year" : 1996, "budget" : 9244 }
+{ "id" : 355, "production_year" : 2000, "budget" : 9559 }
+{ "id" : 373, "production_year" : 2000, "budget" : 9827 }
+{ "id" : 386, "production_year" : 1993, "budget" : 9195 }
+Type "it" for more
+>
+> db.mockmovies1.find({$not:[{"production_year":{$gt:2000}},{"budget":{$gt:10000}}]}).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "unknown top level operator: $not. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+        "code" : 2,
+        "codeName" : "BadValue"
+}
+> db.mockmovies1.find({$not:[{"production_year":{$lt:2000}},{"budget":{$lt:10000}}]}).pretty()
+Error: error: {
+        "ok" : 0,
+        "errmsg" : "unknown top level operator: $not. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.",
+        "code" : 2,
+        "codeName" : "BadValue"
+}
+> db.mockmovies1.find({$and:[{"production_year":{$gt:2000}},{"production_year":{$lte:2010}}]}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5b"),
+        "id" : 1,
+        "movie_name" : "The Strange Affair",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d62"),
+        "id" : 8,
+        "movie_name" : "Rudolph, the Red-Nosed Reindeer",
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d63"),
+        "id" : 9,
+        "movie_name" : "I Am Number Four",
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6a"),
+        "id" : 16,
+        "movie_name" : "Passion of Anna, The (Passion, En)",
+        "movies_genre" : "Drama",
+        "production_year" : 2001,
+        "budget" : 12441
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6b"),
+        "id" : 17,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2003,
+        "budget" : 16313
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6c"),
+        "id" : 18,
+        "movie_name" : "Kanak Attack",
+        "movies_genre" : "Drama",
+        "production_year" : 2005,
+        "budget" : 19476
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d6f"),
+        "id" : 21,
+        "movie_name" : "Glumov's Diary (Dnevnik Glumova)",
+        "movies_genre" : "(no genres listed)",
+        "production_year" : 2002,
+        "budget" : 18178
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d70"),
+        "id" : 22,
+        "movie_name" : "Accused (Anklaget)",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 13225
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d74"),
+        "id" : 26,
+        "movie_name" : "Hands Across the Table",
+        "movies_genre" : "Comedy|Romance",
+        "production_year" : 2001,
+        "budget" : 17281
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d76"),
+        "id" : 28,
+        "movie_name" : "State Witness, The (Swiadek koronny)",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2004,
+        "budget" : 11797
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d77"),
+        "id" : 29,
+        "movie_name" : "After Life (Wandafuru raifu)",
+        "movies_genre" : "Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 15464
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d79"),
+        "id" : 31,
+        "movie_name" : "Bad Chicken",
+        "movies_genre" : "Comedy",
+        "production_year" : 2010,
+        "budget" : 14126
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d7c"),
+        "id" : 34,
+        "movie_name" : "At Sword's Point",
+        "movies_genre" : "Adventure",
+        "production_year" : 2007,
+        "budget" : 12155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d83"),
+        "id" : 41,
+        "movie_name" : "Intruder, The (L'intrus)",
+        "movies_genre" : "Drama",
+        "production_year" : 2009,
+        "budget" : 13579
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d84"),
+        "id" : 42,
+        "movie_name" : "Ménilmontant",
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 2008,
+        "budget" : 12964
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8a"),
+        "id" : 48,
+        "movie_name" : "Doughboys",
+        "movies_genre" : "Comedy|War",
+        "production_year" : 2008,
+        "budget" : 15183
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8c"),
+        "id" : 50,
+        "movie_name" : "Roadracers",
+        "movies_genre" : "Drama",
+        "production_year" : 2006,
+        "budget" : 11017
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d8f"),
+        "id" : 53,
+        "movie_name" : "Christmas Carol, A",
+        "movies_genre" : "Animation|Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 17887
+}
+
+> db.mockmovies1.find({$and:[{"production_year":{$gt:2000}},{"production_year":{$lte:2010}}]},{_id:0,id:0,movie_name:0}).pretty()
+{
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2009,
+        "budget" : 18872
+}
+{
+        "movies_genre" : "Adventure|Animation|Children|Fantasy|Musical",
+        "production_year" : 2009,
+        "budget" : 14377
+}
+{
+        "movies_genre" : "Action|Sci-Fi|Thriller|IMAX",
+        "production_year" : 2005,
+        "budget" : 16174
+}
+{
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{ "movies_genre" : "Drama", "production_year" : 2001, "budget" : 12441 }
+{ "movies_genre" : "Drama", "production_year" : 2003, "budget" : 16313 }
+{ "movies_genre" : "Drama", "production_year" : 2005, "budget" : 19476 }
+{
+        "movies_genre" : "(no genres listed)",
+        "production_year" : 2002,
+        "budget" : 18178
+}
+{ "movies_genre" : "Drama", "production_year" : 2006, "budget" : 13225 }
+{
+        "movies_genre" : "Comedy|Romance",
+        "production_year" : 2001,
+        "budget" : 17281
+}
+{
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2004,
+        "budget" : 11797
+}
+{
+        "movies_genre" : "Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 15464
+}
+{ "movies_genre" : "Comedy", "production_year" : 2010, "budget" : 14126 }
+{ "movies_genre" : "Adventure", "production_year" : 2007, "budget" : 12155 }
+{ "movies_genre" : "Drama", "production_year" : 2009, "budget" : 13579 }
+{
+        "movies_genre" : "Comedy|Drama",
+        "production_year" : 2008,
+        "budget" : 12964
+}
+{
+        "movies_genre" : "Comedy|War",
+        "production_year" : 2008,
+        "budget" : 15183
+}
+{ "movies_genre" : "Drama", "production_year" : 2006, "budget" : 11017 }
+{
+        "movies_genre" : "Animation|Drama|Fantasy",
+        "production_year" : 2010,
+        "budget" : 17887
+}
+Type "it" for more
+> db.mockmovies1.find({$and:[{"production_year":{$gt:2000}},{"production_year":{$lte:2010}}]},{_id:0,id:0,movie_name:0,movies_gener}).pretty()
+uncaught exception: ReferenceError: movies_gener is not defined :
+@(shell):1:118
+> db.mockmovies1.find({$and:[{"production_year":{$gt:2000}},{"production_year":{$lte:2010}}]},{_id:0,id:0,movie_name:0,movies_genre}).pretty()
+uncaught exception: ReferenceError: movies_genre is not defined :
+@(shell):1:118
+> db.mockmovies1.find({$and:[{"production_year":{$gt:2000}},{"production_year":{$lte:2010}}]},{_id:0,id:0,movie_name:0,movies_genre:0}).pretty()
+{ "production_year" : 2009, "budget" : 18872 }
+{ "production_year" : 2009, "budget" : 14377 }
+{ "production_year" : 2005, "budget" : 16174 }
+{ "production_year" : 2003, "budget" : 12708 }
+{ "production_year" : 2006, "budget" : 10834 }
+{ "production_year" : 2001, "budget" : 12441 }
+{ "production_year" : 2003, "budget" : 16313 }
+{ "production_year" : 2005, "budget" : 19476 }
+{ "production_year" : 2002, "budget" : 18178 }
+{ "production_year" : 2006, "budget" : 13225 }
+{ "production_year" : 2001, "budget" : 17281 }
+{ "production_year" : 2004, "budget" : 11797 }
+{ "production_year" : 2010, "budget" : 15464 }
+{ "production_year" : 2010, "budget" : 14126 }
+{ "production_year" : 2007, "budget" : 12155 }
+{ "production_year" : 2009, "budget" : 13579 }
+{ "production_year" : 2008, "budget" : 12964 }
+{ "production_year" : 2008, "budget" : 15183 }
+{ "production_year" : 2006, "budget" : 11017 }
+{ "production_year" : 2010, "budget" : 17887 }
+Type "it" for more
+>
+> db.mockmovies1.find({}).sort({production_year:-1}).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e08"),
+        "id" : 174,
+        "movie_name" : "The Magic Flute",
+        "movies_genre" : "Drama|Musical|Romance",
+        "production_year" : 2013,
+        "budget" : 16917
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5ea2"),
+        "id" : 328,
+        "movie_name" : "Pray the Devil Back to Hell",
+        "movies_genre" : "Documentary",
+        "production_year" : 2013,
+        "budget" : 9797
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5ea8"),
+        "id" : 334,
+        "movie_name" : "Federico Fellini's Autobiography (Federico Fellini - un autoritratto ritrovato)",
+        "movies_genre" : "Documentary",
+        "production_year" : 2013,
+        "budget" : 13464
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5f01"),
+        "id" : 423,
+        "movie_name" : "Pitfall",
+        "movies_genre" : "Film-Noir",
+        "production_year" : 2013,
+        "budget" : 14504
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5f45"),
+        "id" : 491,
+        "movie_name" : "Me and you (io e te)",
+        "movies_genre" : "Drama",
+        "production_year" : 2013,
+        "budget" : 11139
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d5e"),
+        "id" : 4,
+        "movie_name" : "Second Woman, The",
+        "movies_genre" : "Drama|Film-Noir|Mystery",
+        "production_year" : 2012,
+        "budget" : 9101
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d64"),
+        "id" : 10,
+        "movie_name" : "Easy",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 11014
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d72"),
+        "id" : 24,
+        "movie_name" : "Hollywood Homicide",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2012,
+        "budget" : 16063
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d99"),
+        "id" : 63,
+        "movie_name" : "Mansfield Park",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 16121
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dc2"),
+        "id" : 104,
+        "movie_name" : "Faust",
+        "movies_genre" : "Drama",
+        "production_year" : 2012,
+        "budget" : 15725
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5de9"),
+        "id" : 143,
+        "movie_name" : "Fast & Furious 6 (Fast and the Furious 6, The)",
+        "movies_genre" : "Action|Crime|Thriller|IMAX",
+        "production_year" : 2012,
+        "budget" : 19688
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e03"),
+        "id" : 169,
+        "movie_name" : "Fatal Instinct",
+        "movies_genre" : "Comedy",
+        "production_year" : 2012,
+        "budget" : 9361
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e05"),
+        "id" : 171,
+        "movie_name" : "Halo 4: Forward Unto Dawn",
+        "movies_genre" : "Action|Sci-Fi|Thriller",
+        "production_year" : 2012,
+        "budget" : 10155
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e0a"),
+        "id" : 176,
+        "movie_name" : "Report on the Party and the Guests, A (O slavnosti a hostech)",
+        "movies_genre" : "Drama",
+        "production_year" : 2012,
+        "budget" : 17644
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e1d"),
+        "id" : 195,
+        "movie_name" : "Page of Madness, A (Kurutta ippêji)",
+        "movies_genre" : "Drama|Horror",
+        "production_year" : 2012,
+        "budget" : 19057
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e2f"),
+        "id" : 213,
+        "movie_name" : "Abbott and Costello Meet the Mummy",
+        "movies_genre" : "Comedy|Horror",
+        "production_year" : 2012,
+        "budget" : 19644
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e54"),
+        "id" : 250,
+        "movie_name" : "Day Is Done",
+        "movies_genre" : "Documentary",
+        "production_year" : 2012,
+        "budget" : 11866
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e58"),
+        "id" : 254,
+        "movie_name" : "Last Man on Earth, The (Ultimo uomo della Terra, L')",
+        "movies_genre" : "Drama|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 11264
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5e7c"),
+        "id" : 290,
+        "movie_name" : "Easy Money (Snabba Cash)",
+        "movies_genre" : "Action|Thriller",
+        "production_year" : 2012,
+        "budget" : 14786
+}
+Type "it" for more
+
+> db.mockmovies1.find({}).sort({production_year:-1},{id:1}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5de9"),
+        "id" : 143,
+        "movie_name" : "Fast & Furious 6 (Fast and the Furious 6, The)",
+        "movies_genre" : "Action|Crime|Thriller|IMAX",
+        "production_year" : 2012,
+        "budget" : 19688
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d99"),
+        "id" : 63,
+        "movie_name" : "Mansfield Park",
+        "movies_genre" : "Comedy|Drama|Romance",
+        "production_year" : 2012,
+        "budget" : 16121
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5dc2"),
+        "id" : 104,
+        "movie_name" : "Faust",
+        "movies_genre" : "Drama",
+        "production_year" : 2012,
+        "budget" : 15725
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d72"),
+        "id" : 24,
+        "movie_name" : "Hollywood Homicide",
+        "movies_genre" : "Action|Crime|Drama",
+        "production_year" : 2012,
+        "budget" : 16063
+}
+> db.mockmovies1.find({}).sort({id:1}).skip(10).limit(5).pretty()
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d65"),
+        "id" : 11,
+        "movie_name" : "One-Eyed Monster",
+        "movies_genre" : "Comedy|Horror|Sci-Fi",
+        "production_year" : 2012,
+        "budget" : 14624
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d66"),
+        "id" : 12,
+        "movie_name" : "Con Air",
+        "movies_genre" : "Action|Adventure|Thriller",
+        "production_year" : 1994,
+        "budget" : 10615
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d67"),
+        "id" : 13,
+        "movie_name" : "Scream of Fear (a.k.a. Taste of Fear)",
+        "movies_genre" : "Horror|Mystery|Thriller",
+        "production_year" : 2003,
+        "budget" : 12708
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d68"),
+        "id" : 14,
+        "movie_name" : "Musketeers of Pig Alley, The",
+        "movies_genre" : "Crime|Drama",
+        "production_year" : 2006,
+        "budget" : 10834
+}
+{
+        "_id" : ObjectId("6227afbe0a83e3c7b63d5d69"),
+        "id" : 15,
+        "movie_name" : "Were the World Mine",
+        "movies_genre" : "Adventure|Fantasy|Musical|Romance",
+        "production_year" : 1997,
+        "budget" : 10465
+}
+> db.mockmovies1.remove({movies_genre}).sort({id:1}).skip(10).limit(5).pretty()
+uncaught exception: ReferenceError: movies_genre is not defined :
